@@ -17,7 +17,7 @@ permissions:
 
 jobs:
   setup:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     outputs:
       matrix: ${{ steps.mk.outputs.matrix }}
       multi:  ${{ steps.mk.outputs.multi }}
